@@ -1,42 +1,198 @@
-# Markslide 示例
+# Git - the #1 source code tools
 
-## Markslide = markdown + deck.js
-* markdown: 使用redcarpet库进行markdown -> html的转换
-* deck.js: 根据约定在转换后的html中添加css class供deck.js识别
+## Training Agenda
 
-## 特殊标记
-* :冒号
+* Version Control History, GIT Design Goal
+* GIT Extension Installation and Setup
+* GIT Concept and Terminology
+* GIT Daily Usage in SVN way
+* Create your own GIT repo (local & remote)
+* New GIT feature and further more manual
 
-    用户在标题或者列表内容前放置一个冒号，转换后的html节点（例如：h3, li等等）就会添加一个名为 slide 的class，这个class会被deck.js处理成动画显示效果
-* :引用文字中的感叹号
+## Version Control History
 
-    下面的内容是隐藏的，请你按一下键盘上的字母p，你将会看到这段内容
-`!这是一段隐藏内容，可以用来给自己的slide准备comment，使用字母健p可以开启或者关闭这些comment`
+* Manually keep track of versions of code! (1960s)
+* Keep lots of versions in one file! (1972, SCCS)
+* You can each have your own copy checked out! (1982, RCS)
+* Version multiple files at once! (1986, CVS, atomic by Subversion 2000)
+* Shared repository can be on a remote machine! (1994, CVS with )
+* Open source version control hosting! (1999, SourceForge)
+* No central repository! (2005, GIT)
+* When you checkout that’s a fork too, and you can do that in public! (2008, GIThub)
 
-## 工具脚本
-### rake generate
-    使用这个命令执行转换，转换后会得到新的index.html文件
-### guard
-    我们使用guard监控index.md文件的变化，所以持续修改时可以直接开启guard
-### rake pkg
-    使用这个命令打包你的slides，打包后会得到一个zip文件，文件名是branch名称
+[source](http://www.flourish.org/blog/?p=397)
 
-## 最佳实践
-### :使用git管理自己的slides资源
-    
-    :使用不同的git分支编写不同的slides，有复用内容的slide可以建立一个base分支，然后用它向其它分支merge
-### :图片和资源
-    
-    :可以把所有的图片放在images目录下，使用base分支来共享，打包脚本将会选择使用到的图片，不用担心资源失控
+## GIT & GitHub History
 
-## 深入
-`如果不能满足你的需要，你可以修改下列位置——`
+Torvalds wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, particularly his performance needs. From an email he wrote on 7 April 2005 while writing the first prototype.
 
-* head.part 和 tail.part
+GitHub is a web-based hosting service for software development projects that use the Git revision control system. GitHub offers both commercial plans and free accounts for open source projects. According to the Git User's Survey in 2009, GitHub is the most popular Git hosting site.
 
-    :最后的index.html文件实际上是使用了这两个文件作为自己的'头'和'尾'，你也可以直接修改它们
-* lib/deck_render.rb
+## GIT Design Goal
 
-    :特殊标记的转换在这里完成，你可以定制自己的特殊转换
+* Take CVS as an example of what not to do; if in doubt, make the exact opposite decision.
 
-# Have fun!
+* Support a distributed, BitKeeper-like workflow
+
+* Very high performanc and strong safeguards against corruption, either accidental or malicious
+
+
+## GIT Extension Design Goal
+
+* GitExtensions is a shell extension, a Visual Studio 2008 / 2010 plug-in and a standalone GIT repository tool.
+
+* Great tools enable you think and work in Unix style gradually
+
+## GIT Extension Install - All User
+
+[http://code.google.com/p/gitextensions/](http://code.google.com/p/gitextensions/) (download URL)
+
+![Installation Step 1](git-training/installation_step_01.png "Install for all users")
+
+## GIT Extension Install - Both
+
+![Installation Step 2](git-training/installation_step_02.png "Both need")
+
+## GIT Extension Install - Integration
+
+![Installation Step 3](git-training/installation_step_03.png "Not need items")
+
+## GIT Extension Install - PuTTY
+
+![Installation Step 4](git-training/installation_step_04.png "Using PuTTY")
+
+## GIT Extension Install - KDiff3
+
+![Installation Step 5](git-training/installation_step_05.png "Even documentation also can not select")
+
+## GIT Extension Install - MsysGIT
+
+![Installation Step 6](git-training/installation_step_06.png "No need context menu need")
+
+## GIT Extension Install - Bash Only
+
+![Installation Step 7](git-training/installation_step_07.png "Bash only")
+
+## GIT Extension Install - cross-platform
+
+![Installation Step 8](git-training/installation_step_08.png "cross-platform")
+
+## GIT Extension Setup
+
+GIT Extension -> Settings -> Settings to fill:
+
+    * User Name
+    * eMail
+
+![Setup 01](git-training/setup_username_email.png "Username and email")
+
+## GIT Generate SSH Key
+
+GIT Extension -> Remotes -> PuTTY -> Generate or import key:
+
+![Setup 02](git-training/setup_generate_sshkey.png "Generate SSH Key")
+
+## GIT Email your Public key to Admin
+
+1. Copy selection text and email to your Admin
+2. Save private key because you need private key to login latter
+3. Loss private key need regenerate private key and resent public key to Admin
+
+![Setup 03](git-training/setup_email_public_key.png "email public key")
+
+## GIT clone your first repositories
+
+Repository to clone: *gitolite@cvpscmip01:testing.git*
+
+![Test 01](git-training/test_clone_first_repository.png "Clone the first repository")
+
+## GIT Commit/Push your first change
+
+![Test 02](git-training/test_commit_first_change.png "Commit your first change")
+
+## GIT Daily Usage in SVN way
+
+* Clone (SVN Checkout)
+* Commit (in Local)
+* Push (SVN Commit)
+* Pull (SVN Update All)
+* gitK (SVN History)
+
+## GIT Concept and Terminology
+
+![Concept and Terminology](git-training/git_concept_and_terminology.png "GIT Concept and Terminology")
+
+## gitk - a GUI commit viewer for git
+
+![a commit viewer for git](git-training/gitk_commit_viewer_screen.png "gitk_commit_viewer")
+
+## GIT Key Sales Point
+
+1. Very fast and user friendly
+1. Source Code Repository is distributed, isolated, history complete
+1. All action can run in Local except pull and push
+1. Submit and rollback always success (until pull and push)
+1. Can fix last submit very easily
+
+## Create your GIT repository in GIT Extension
+
+Open Repopsitory -> Your not GIT init yet folder -> Initialize Repository
+
+![create repository](git-training/create_repository_init.png "Create GIT repository")
+
+## Add .gitignore for VS.NET intermediate files
+
+Forgot any add ignore file and pattern in Subversion, now it’s a One-click only action!
+
+![add gitignore](git-training/create_repository_gitignore.png "Add .gitignore")
+
+# Don’t forgot to add ignore files!
+
+## Add .gitignore to ignore VS.NET *intermediate* files
+
+#### The obj/exe or any other binary file will make repository looks like amature job!
+
+![add gitignore](git-training/create_repository_gitignore.png "Add .gitignore")
+
+## Commit initial version of files
+
+![initial commit](git-training/create_repository_initial_commit.png "Initial Commit")
+
+## Push your repository to CVPSCMIP01
+
+You can to put any repository to:  (no need inform GIT admin!)
+
+    gitolite@cvpscmip01:/usr/[*yourname*]/[*your_repository_name*]
+
+![push to server](git-training/create_repository_push_gitolite.png "Push to server")
+
+## Your repository is visible at Web!
+
+1. Work as own at first in your usr folder. (No need to inform GIT Admin)
+2. Rise your project to root folder if it is company widely used and relatively stable. (Need GIT Admin help)
+3. Old Subversion project will moved to root folder by GIT Admin already
+
+#### [http://cvpscmip01/usr/eric/MTtest-Assistant.git](http://cvpscmip01/usr/eric/MTtest-Assistant.git)
+
+## More GIT tricks need SSH and console now
+
+Setting description for your own repository:
+
+    6749@SHE127731 /c/git
+    $ echo "A semi-auto MES Yield Limit Batch setting tools used in SPAS 125-001" | ssh gitolite@cvpscmip01 setdesc usr/eric/YieldLimits-Change
+    Enter passphrase for key '/c/Users/6749/.ssh/id_rsa':
+
+New description is: *A semi-auto MES Yield Limit Batch setting tools used in SPAS 125-001* now
+
+## More document and essay about GIT
+
+* Git Extensions User Manual (in your hard drive after install GIT Extension)
+* [Pro GIT](http://progit.org/book/) ([Chinese](http://progit.org/book/zh/))
+* [GIT Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/) ([Chinese](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/))
+* [Git权威指南](http://www.worldhello.net/gotgit/)
+
+Things we not mentioned:
+    GIT command line
+    Branch, Merge, Rebase, Cherry Pick
+
+# Question & Answer ?
