@@ -1,4 +1,4 @@
-# Git - the #1 source code tools
+# Git - the #1 source code control tools
 
 ## Training Agenda
 
@@ -8,6 +8,10 @@
 * GIT Daily Usage in SVN way
 * Create your own GIT repo (local & remote)
 * New GIT feature and further more manual
+
+> press `m` to see overview slide;
+> press `g` to goto slide by number.
+> <cite>Training material prepared by Eric Guo</cite>
 
 ## Version Control History
 
@@ -187,11 +191,13 @@ New description is: *A semi-auto MES Yield Limit Batch setting tools used in SPA
 ## More document and essay about GIT
 
 * Git Extensions User Manual (in your hard drive after install GIT Extension)
-* [Pro GIT](http://progit.org/book/) ([Chinese](http://progit.org/book/zh/))
-* [GIT Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/) ([Chinese](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/))
+* [Pro GIT](http://progit.org/book/) ([中文](http://progit.org/book/zh/))
+* [GIT Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/) ([中文](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/))
+* [Git Tips集锦](https://gitcafe.com/riku/GitTips)
 * [Git权威指南](http://www.worldhello.net/gotgit/)
 
 Things we not mentioned:
+
     GIT command line
     Branch, Merge, Rebase, Cherry Pick
 
