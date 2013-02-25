@@ -2,6 +2,7 @@
 
 ## Training Agenda
 
+* Introduction Git
 * Version Control History, GIT Design Goal
 * GIT Extension Installation and Setup
 * GIT Concept and Terminology
@@ -12,6 +13,10 @@
 > press `m` to see overview slide;
 > press `g` to goto slide by number.
 > <cite>Training material prepared by Eric Guo</cite>
+
+## Git and Github from CNY Ticket
+
+<iframe src="http://it.21cn.com/mi/a/2013/0123/08/20262835.shtml" width="1024" height="768" frameborder="0"></iframe>
 
 ## Version Control History
 
