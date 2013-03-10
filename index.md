@@ -18,6 +18,12 @@
 
 <iframe src="http://it.21cn.com/mi/a/2013/0123/08/20262835.shtml" width="1024" height="768" frameborder="0"></iframe>
 
+## Github and non-programming usage
+
+* [Chicago pedway/bike-routes/building-foorprints](https://github.com/Chicago)
+* [German Federal Laws](https://github.com/bundestag/gesetze#german-federal-laws-and-regulations)
+* [New Zealand Act Record](https://github.com/Br3nda/legislation/tree/master/act/public)
+
 ## Version Control History
 
 * Manually keep track of versions of code! (1960s)
