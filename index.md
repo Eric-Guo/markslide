@@ -199,6 +199,12 @@ Setting description for your own repository:
 
 New description is: *A semi-auto MES Yield Limit Batch setting tools used in SPAS 125-001* now
 
+## A successful Git branching model
+
+![Git Branch Model](git-training/git_branching_model.png "The typical Git branch model")
+
+[source](http://nvie.com/posts/a-successful-git-branching-model/)
+
 ## More document and essay about GIT
 
 * Git Extensions User Manual (in your hard drive after install GIT Extension)
