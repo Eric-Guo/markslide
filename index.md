@@ -1,14 +1,18 @@
-# Git - the #1 source code control tools
+# Git - Building software, better together
 
 ## Training Agenda
 
 * Introduction Git
-* Version Control History, GIT Design Goal
-* GIT Extension Installation and Setup
-* GIT Concept and Terminology
-* GIT Daily Usage in SVN way
+* Version Control History, Git Design Goal
+* Git Extension Installation and Setup
+* Git Concept and Terminology
+* Git Daily Usage
 * Create your own GIT repo (local & remote)
-* New GIT feature and further more manual
+* Git - Working dir, Stage and commit
+* Git - Diff & Revert commit
+* Git - Blame & File history
+* Git - Branch, Merge or Rebase
+* Git - Solving Conflicts
 
 > press `m` to see overview slide;
 > press `g` to goto slide by number.
