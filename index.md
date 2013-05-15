@@ -24,6 +24,7 @@
 
 ## Github and non-programming usage
 
+* [the official Open Data Policy of the United States on GitHub](https://github.com/blog/1499-the-revolution-will-be-forked)
 * [Chicago pedway/bike-routes/building-foorprints](https://github.com/Chicago)
 * [German Federal Laws](https://github.com/bundestag/gesetze#german-federal-laws-and-regulations)
 * [New Zealand Act Record](https://github.com/Br3nda/legislation/tree/master/act/public)
