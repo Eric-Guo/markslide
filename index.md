@@ -29,6 +29,14 @@
 * [German Federal Laws](https://github.com/bundestag/gesetze#german-federal-laws-and-regulations)
 * [New Zealand Act Record](https://github.com/Br3nda/legislation/tree/master/act/public)
 
+## NASA as a Github user
+
+![NASA github](git-training/git_nasa_user.png "NASA is also one of the github user")
+
+## Genetic Data on Github
+
+<iframe src="http://manu.sporny.org/2011/public-domain-genome/" width="1024" height="768" frameborder="0"></iframe>
+
 ## Version Control History
 
 * Manually keep track of versions of code! (1960s)
@@ -42,7 +50,17 @@
 
 [source](http://www.flourish.org/blog/?p=397)
 
+## Time line of the Version Control tools
+
+I'm an egotistical bastard, and I name all my projects after myself.
+
+First Linux, now git. -Linus Torvalds
+
+![Visual braching image](git-training/scm_history.png "The typical Git branch model")
+
 ## GIT & GitHub History
+
+![Git logo](git-training/git_logo.png "logo picture")
 
 Torvalds wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, particularly his performance needs. From an email he wrote on 7 April 2005 while writing the first prototype.
 
@@ -194,7 +212,7 @@ You can to put any repository to:  (no need inform GIT admin!)
 
 #### [http://cvpscmip01/usr/eric/MTtest-Assistant.git](http://cvpscmip01/usr/eric/MTtest-Assistant.git)
 
-## More GIT tricks need SSH and console now
+## More Git tricks need console now
 
 Setting description for your own repository:
 
@@ -204,15 +222,32 @@ Setting description for your own repository:
 
 New description is: *A semi-auto MES Yield Limit Batch setting tools used in SPAS 125-001* now
 
-## Introduction Gitlab
+## Working dir, Stage and commit
 
-Access it [at](http://cvpgitip01.sandisk.com/)
+![Git working dir, stage and commit](git-training/git_workdir_stage_commit.png "Diff is display diff with working dir and stage")
+
+## Diff & Revert commit
+
+## Git Blame and File history
+
+## Git Branch
+
+Branching in Git is a function that is used to launch a separate, similar copy of the present
+workspace for different usage requirements. In other words branching means diverging from
+whatever you have been doing to a new lane where you can continue working on something
+else without disturbing your main line of work.
+
+![Visual braching image](git-training/isometric-branching.png "All path can let to rome")
 
 ## A successful Git branching model
 
 ![Git Branch Model](git-training/git_branching_model.png "The typical Git branch model")
 
 [source](http://nvie.com/posts/a-successful-git-branching-model/)
+
+## Merge or Rebase
+
+## Solving Conflicts
 
 ## More document and essay about GIT
 
@@ -221,6 +256,9 @@ Access it [at](http://cvpgitip01.sandisk.com/)
 * [GIT Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/) ([中文](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/))
 * [Git Tips集锦](https://gitcafe.com/riku/GitTips)
 * [Git权威指南](http://www.worldhello.net/gotgit/)
+
+![Pro Git](git-training/book_pro_git.png "Pro Git")
+
 
 Things we not mentioned:
 
