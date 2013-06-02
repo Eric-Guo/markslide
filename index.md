@@ -285,4 +285,14 @@ Things we not mentioned:
 
     GIT command line
 
+## Git command line bonus tips
+
+* git clone --single-branch <repo.url>
+* git clone --depth <number> <repo.url>
+
+<blockquote cite="http://www.arthurcclarke.net/">
+  <p>The difference between machines and human beings is that human beings can be reproduced by unskilled labor.</p>
+  <p><cite>Arthur C.Clarke</cite></p>
+</blockquote>
+
 # Question & Answer ?
