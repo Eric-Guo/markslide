@@ -226,9 +226,17 @@ New description is: *A semi-auto MES Yield Limit Batch setting tools used in SPA
 
 ![Git working dir, stage and commit](git-training/git_workdir_stage_commit.png "Diff is display diff with working dir and stage")
 
-## Diff & Revert commit
+## Diff, Revert or Cherry Pick commit
+
+Diff is the acturally change in each commit, you can revert the commit and cherry pick commit to other branch if require.
+
+![Diff](git-training/git_diff_demo.png "Green is add, Red is removed")
 
 ## Git Blame and File history
+
+Blame is used to check who is response to file change, File history is to check single file change.
+
+![Blame](git-training/git_blame_demo.png "Blame is used to check who is respose to one line change")
 
 ## Git Branch
 
@@ -247,6 +255,17 @@ else without disturbing your main line of work.
 
 ## Merge or Rebase
 
+<img style="float:left" src="git-training/HelpCommandMerge.png" alt="Merge" title="Merge">
+<img style="float:right" src="git-training/HelpCommandRebase.png" alt="Rebase" title="Rebase">
+
+Rebase is more clear.
+
+Merge show the fact "parallel evolutions of a same source code base"
+
+After a rebase, [it's impossible to determine what was originally part of the commits and what was introduced as a result of bad conflict resolution](http://stackoverflow.com/questions/457927/git-workflow-and-rebase-vs-merge-questions).
+
+
+
 ## Solving Conflicts
 
 ## More document and essay about GIT
@@ -263,6 +282,5 @@ else without disturbing your main line of work.
 Things we not mentioned:
 
     GIT command line
-    Branch, Merge, Rebase, Cherry Pick
 
 # Question & Answer ?
