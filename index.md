@@ -264,9 +264,11 @@ Merge show the fact "parallel evolutions of a same source code base"
 
 After a rebase, [it's impossible to determine what was originally part of the commits and what was introduced as a result of bad conflict resolution](http://stackoverflow.com/questions/457927/git-workflow-and-rebase-vs-merge-questions).
 
-
-
 ## Solving Conflicts
+
+![Solving conflects](git-training/git-mergetool-kdiff3.png "The three way merge solve")
+
+[source](http://tedfelix.com/software/git-conflict-resolution.html)
 
 ## More document and essay about GIT
 
