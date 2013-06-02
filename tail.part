@@ -28,6 +28,9 @@
 
 <!-- End extension snippets. -->
 
+<footer>
+  <p><a href="http://www.sandisk.com/about-sandisk/press-room/press-releases/2012/25-year-anniversary-of-flash-memory/"><img src="git-training/sandisk_25_anniversary.png" alt="Sandisk" title="Sandisk 25 year anniversary of flash memory"></a></p>
+</footer>
 
 <!-- Required JS files. -->
 <script src="deck.js/jquery-1.7.2.min.js"></script>
