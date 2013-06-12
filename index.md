@@ -13,14 +13,18 @@
 * Git - Blame & File history
 * Git - Branch, Merge or Rebase
 * Git - Solving Conflicts
+* Git - command line mode (if time permit)
 
 > press `m` to see overview slide;
 > press `g` to goto slide by number.
 > <cite>Training material prepared by Eric Guo</cite>
+> best view in [Google Chrome](http://www.google.com/chrome/)
 
 ## Git and Github from CNY Ticket
 
 <iframe src="http://it.21cn.com/mi/a/2013/0123/08/20262835.shtml" width="1024" height="768" frameborder="0"></iframe>
+
+!Github is GFW certificated
 
 ## Github and non-programming usage
 
@@ -36,6 +40,27 @@
 ## Genetic Data on Github
 
 <iframe src="http://manu.sporny.org/2011/public-domain-genome/" width="1024" height="768" frameborder="0"></iframe>
+
+## Current known similar Github site
+
+* [bit bucket](https://bitbucket.org/)
+* [GitLab](https://gitlab.com/)
+* [GitCafe](https://gitcafe.com/)
+* [gitcd](http://gitcd.com/)
+* [Gitshell](https://www.gitshell.com/)
+* [Code@CSDN](http://code.csdn.net/)
+* [git@oschina.net](http://git.oschina.net/)
+* [repo.or.cz](http://repo.or.cz/)
+* [Gitorious](http://gitorious.org/)
+* [Teamhost](http://www.teamhost.org/)
+* [Source Forge](http://sourceforge.net/)
+* [集盒](https://geakit.com/)
+* [springloops](http://www.springloops.io/)
+* [Unfuddle](http://unfuddle.com/)
+* [codebase](http://www.codebasehq.com/)
+* [Project Hosting by Google](http://code.google.com/)
+* [CodePlex by MS](http://www.codeplex.com/)
+* [TaoCode by Taobao](http://code.taobao.org/)
 
 ## Version Control History
 
@@ -247,12 +272,6 @@ else without disturbing your main line of work.
 
 ![Visual braching image](git-training/isometric-branching.png "All path can let to rome")
 
-## A successful Git branching model
-
-![Git Branch Model](git-training/git_branching_model.png "The typical Git branch model")
-
-[source](http://nvie.com/posts/a-successful-git-branching-model/)
-
 ## Merge or Rebase
 
 <img style="float:left" src="git-training/HelpCommandMerge.png" alt="Merge" title="Merge">
@@ -270,6 +289,47 @@ After a rebase, [it's impossible to determine what was originally part of the co
 
 [source](http://tedfelix.com/software/git-conflict-resolution.html)
 
+## Live Demo 1 - Learning from code history
+
+[Mes View](http://mesview.sandisk.com/orders/000005071229)
+
+* [Skip to display shipping date if shipping date is empty](http://cvpscmip01/mv.git/commitdiff/67e082867b206f39ae55cce35b96215d08cdef46?hp=4ff1067643645a853b6fc57c3a0ead8cb5d766e5)
+* [using the @media print to hide the navbar to get better result both in HTML page or print](http://cvpscmip01/mv.git/commitdiff/0c42a0ece84f26010006e0c38617be56e5cdc6e3?hp=68f1ba349e7428e8bf14ef49d7a5a0c8b9bcb645)
+* [Fix barcode, still using png file instead of html table, since the png will more print friendly.](http://cvpscmip01/mv.git/commitdiff/1972e825c1870412215558a681b8c55b5a5a3acb?hp=aeff7dacb5b99c4a5ba28099ade8f425080852e5)
+
+## Live Demo 2 - Sync with open source project
+
+[http://overapi.sandisk.com/](http://overapi.sandisk.com/)
+
+* how to pull from official site
+* how to apply to rebase ad remove
+* how to solve conflicts
+* how to build and deploy new site to SDSS
+
+## Live Demo 3 - Browsing a SDSS real project.
+
+[Classic WIP](http://cvpscmip01/classic-wip45.git)
+
+* Impact history
+* Commit Statistics
+* Why commit statistics number can not be a KPI
+* Why code of line number can not be a KPI
+
+## Some tips when you working with multi user Git repository
+
+* master should always deployable and focus on production
+* write your purpose in commit message, give relative information if need
+* push faster than your colledge
+* [Fight with Software Complexity](http://blog.pdark.de/2012/07/14/software-development-costs/)
+
+![cost per feature](git-training/software-development-costs-per-feature.png "Cost per feature if not control the comple")
+
+## A successful Git branching model
+
+![Git Branch Model](git-training/git_branching_model.png "The typical Git branch model")
+
+[source](http://nvie.com/posts/a-successful-git-branching-model/)
+
 ## More document and essay about GIT
 
 * Git Extensions User Manual (in your hard drive after install GIT Extension)
@@ -283,12 +343,13 @@ After a rebase, [it's impossible to determine what was originally part of the co
 
 Things we not mentioned:
 
-    GIT command line
+    GIT command line mode
 
 ## Git command line bonus tips
 
 * git clone --single-branch <repo.url>
 * git clone --depth <number> <repo.url>
+* git rebase -i master~2
 
 <blockquote cite="http://www.arthurcclarke.net/">
   <p>The difference between machines and human beings is that human beings can be reproduced by unskilled labor.</p>
