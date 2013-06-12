@@ -3,8 +3,7 @@ GEM
   specs:
     coderay (1.0.9)
     eventmachine-win32 (0.7.2)
-    ffi (1.8.1)
-    ffi (1.8.1-x86-mingw32)
+    ffi (1.9.0)
     formatador (0.2.4)
     guard (1.8.0)
       formatador (>= 0.2.4)
@@ -14,7 +13,7 @@ GEM
       thor (>= 0.14.6)
     guard-shell (0.5.1)
       guard (>= 1.1.0)
-    listen (1.1.4)
+    listen (1.2.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
